@@ -10,10 +10,7 @@
  *  (así la URL no cambia).
  */
 const HOJA = 'Respuestas';
-const COLUMNAS = [
-  'enviado', 'nombre', 'asistencia', 'acompanantes', 'nombres_acompanantes',
-  'bus_ida', 'bus_vuelta', 'alergias', 'telefono', 'mensaje'
-];
+const COLUMNAS = ['enviado', 'nombre', 'asistencia', 'acompanante', 'alergias', 'mensaje'];
 
 function doPost(e) {
   const lock = LockService.getScriptLock();
